@@ -10,3 +10,4 @@ response = co.generate(
     max_tokens=200,
 )
 print(response.generations[0].text)
+print(response.generations)
